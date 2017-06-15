@@ -50,8 +50,8 @@ h1,h2,h3,h4,h5,h6 {
     padding: 50px 0;
 }
 p {
-    margin: 0;    
-    font-size: 15px;
+    margin: 0;
+    font-size: 14px;
     font-family: 'OpenSans-Regular';
 }
 ul {
@@ -124,6 +124,7 @@ span {
 .navbar-nav > li > a {
     font-family: 'Montserrat-Regular';
     font-size: 16px;
+    font-weight: bold;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #009688;
@@ -528,7 +529,7 @@ h1.abbr {
     font-size: 15px;
 }
 #about-p p {
-    padding: 9px 0;
+    padding: 0px 0;
 }
 /*-- //About-Ends-Here --*/
 
@@ -738,7 +739,7 @@ div#services {
    width: 100%;
 }
 .view-seventh .mask {
-    background-color: rgba(0, 0, 0, 0.54);
+    /*background-color: rgba(0, 0, 0, 0.54);*/
    -webkit-transform: rotate(0deg) scale(1);
    -moz-transform: rotate(0deg) scale(1);
    -o-transform: rotate(0deg) scale(1);
